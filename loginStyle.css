@@ -1,0 +1,67 @@
+body{
+    
+    font-family: 'Hind', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100px;
+}
+#holder {
+    display : grid;
+    justify-content: center;   
+  
+
+}
+header {
+    display : grid;
+    justify-content:space-around;
+    grid-template-columns :auto 50%;
+    column-gap: 1em;
+    justify-content:center;
+    margin-bottom:-20%;
+
+}
+#img1{
+    display:flex;
+    align-self: center;
+    padding-left:10%
+}
+#textHead{
+display: flex;
+   margin-top:100px;
+   align-self:center;
+   justify-self: flex-start;
+   padding-left:10%;
+}
+section{
+    display:grid;
+    grid-template-columns :auto auto;
+     
+}
+#Box1 {
+    display:flex;
+    border: 1px solid black;
+    width: 200px ;
+    height: 200px;
+    justify-self:center;
+    align-self: center;
+}
+#input input{
+    padding:7px ;
+    width:300px;
+    border-radius: 10px;
+    margin: 10px
+}
+#form{
+    justify-self: center;
+}
+#SubOut{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;  
+}
+#subB{
+    padding: 5px;
+    text-align: center;
+    width:100px;
+    border-radius: 7px;
+}
